@@ -1,15 +1,15 @@
 namespace SpaceMission.Models;
 
-public class PathResult
+public class AstronautPath
 {
-    public string Id { get; }
+    public string AstronautId { get; }
     public Position Start { get; }
     public int PathLength { get; } // -1 = lost in space
     public IReadOnlyList<Position> Path { get; } // reconstructed route, empty if none
 
-    public PathResult(string id, Position start, int pathLength, IReadOnlyList<Position> path)
+    public AstronautPath(string id, Position start, int pathLength, IReadOnlyList<Position> path)
     {
-        Id = id;
+        AstronautId = id;
         Start = start;
         PathLength = pathLength;
         Path = path;

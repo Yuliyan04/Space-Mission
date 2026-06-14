@@ -23,7 +23,7 @@ public class MissionControl
     {
         Map map = mapGenerator.GenerateMap();
 
-        List<PathResult> pathResults = pathFinder.FindPaths(map);
+        List<AstronautPath> pathResults = pathFinder.FindPaths(map);
 
         MapRenderer mapRenderer = new MapRenderer(map, symEncoder);
         ReportBuilder reportBuilder = new ReportBuilder(mapRenderer);

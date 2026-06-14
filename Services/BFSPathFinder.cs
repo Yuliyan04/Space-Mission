@@ -22,25 +22,25 @@ public class BFSPathfinder : IPathFinder
     }
 
 
-    public List<PathResult> FindPaths(Map map)
+    public List<AstronautPath> FindPaths(Map map)
     {
         (Position? parentPos, int dist)[,] parentPosAndDist = BuildParentMatrix(map);
 
-        List<PathResult> results = new List<PathResult>();
+        List<AstronautPath> results = new List<AstronautPath>();
         foreach (Position pos in map.AstronautPositions)
         {
             int dist = parentPosAndDist[pos.Row, pos.Col].dist;
             List<Position> currPath;
-            PathResult currPathRes;
+            AstronautPath currPathRes;
             string id = Encoder.Decode(map.GetCell(pos.Row, pos.Col));
 
             if (dist == int.MaxValue) {
                 currPath = new List<Position>();
-                currPathRes = new PathResult(id, pos, InvalidPathValue, currPath);
+                currPathRes = new AstronautPath(id, pos, InvalidPathValue, currPath);
             } 
             else {
                 currPath = ReconstructPath(pos, parentPosAndDist);
-                currPathRes = new PathResult(id, pos, dist, currPath);
+                currPathRes = new AstronautPath(id, pos, dist, currPath);
             }
             results.Add(currPathRes);
         }

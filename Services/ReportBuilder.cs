@@ -12,13 +12,13 @@ public class ReportBuilder
         this.renderer = renderer;
     }
 
-    public string BuildReport(List<PathResult> results)
+    public string BuildReport(List<AstronautPath> results)
     {
-        IEnumerable<PathResult> ordered = results.OrderBy(r => r.PathLength);
+        IEnumerable<AstronautPath> ordered = results.OrderBy(r => r.PathLength);
 
         StringBuilder report = new StringBuilder();
 
-        foreach (PathResult result in ordered) {
+        foreach (AstronautPath result in ordered) {
             string currInfo = renderer.Render(result);
             report.Append(currInfo);
         }

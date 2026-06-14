@@ -5,5 +5,5 @@ namespace SpaceMission.Interfaces;
 
 public interface IPathFinder
 {
-    List<PathResult> FindPaths(Map map);
+    List<AstronautPath> FindPaths(Map map);
 }

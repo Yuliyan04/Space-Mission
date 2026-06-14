@@ -15,9 +15,9 @@ public class MapRenderer
         this.encoder = encoder;
     }
 
-    public string Render(PathResult result)
+    public string Render(AstronautPath result)
     {
-        string id = result.Id;
+        string id = result.AstronautId;
 
         string header;
         string mapText;

@@ -21,7 +21,7 @@ public class SymbolEncoder : ISymbolEncoder
     {
         return symbol switch
         {
-            "0" or "O" => Open,
+            "O" => Open,
             "X" => Asteroid,
             "D" => Debris,
             "F" => Station,
@@ -34,7 +34,7 @@ public class SymbolEncoder : ISymbolEncoder
 
     public string Decode(byte value)
     {
-        if (value == Open) return "0";
+        if (value == Open) return "O";
         if (value == Asteroid) return "X";
         if (value == Debris) return "D";
         if (value == Station) return "F";

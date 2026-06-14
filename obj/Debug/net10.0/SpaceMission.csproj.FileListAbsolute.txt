@@ -12,3 +12,4 @@ C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\refint\Spac
 C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.pdb
 C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.genruntimeconfig.cache
 C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\ref\SpaceMission.dll
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.sourcelink.json

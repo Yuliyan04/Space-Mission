@@ -87,7 +87,7 @@ void MissionControlUI()
     Console.WriteLine("- First you need to enter a map. You can write the map");
     Console.WriteLine("  yourself or we can generate a random map for you.\n");
 
-     Console.WriteLine("======================== Commands ==========================");
+    Console.WriteLine("======================== Commands ==========================");
     Console.WriteLine("  -- manual - type your own cosmic map");
     Console.WriteLine("  -- random - we build a random map from a size you choose");
     Console.WriteLine("  -- exit - shut down mission control\n");
@@ -95,7 +95,7 @@ void MissionControlUI()
     Console.WriteLine("- A cosmic map is built from these symbols:");
     Console.WriteLine("  -- S1, S2, S3  - astronauts (1 to 3 of them)");
     Console.WriteLine("  -- F - the Space Station (exactly one)");
-    Console.WriteLine("  -- 0 - open space (safe, costs 1 step)");
+    Console.WriteLine("  -- O - open space (safe, costs 1 step)");
     Console.WriteLine("  -- X - asteroid (blocked, cannot enter)");
     Console.WriteLine("  -- D - space debris (passable, costs 2 steps)\n");
 

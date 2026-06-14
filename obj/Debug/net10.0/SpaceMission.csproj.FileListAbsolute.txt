@@ -1,0 +1,14 @@
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\bin\Debug\net10.0\SpaceMission.exe
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\bin\Debug\net10.0\SpaceMission.deps.json
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\bin\Debug\net10.0\SpaceMission.runtimeconfig.json
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\bin\Debug\net10.0\SpaceMission.dll
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\bin\Debug\net10.0\SpaceMission.pdb
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.AssemblyInfoInputs.cache
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.AssemblyInfo.cs
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.csproj.CoreCompileInputs.cache
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.dll
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\refint\SpaceMission.dll
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.pdb
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\SpaceMission.genruntimeconfig.cache
+C:\Users\Yulian\Desktop\space_mission\SpaceMission\obj\Debug\net10.0\ref\SpaceMission.dll
